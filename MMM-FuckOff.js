@@ -138,7 +138,7 @@ Module.register("MMM-FuckOff", {
         this.getFuckOff(this.config.initialLoadDelay);
     },
 
-    getJetsons: function() {
+    getFuckOff: function() {
         this.sendSocketNotification('GET_FUCKOFF', this.url);
     },
 
